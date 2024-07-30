@@ -20,7 +20,7 @@
 
 		"outerColor": [230, 20, 20],
 		"innerColor": [255, 255, 255],
-		"favoredReligion": "NAR-SIE",
+		//"favoredReligion": "NAR-SIE",
 		"uniqueName": "Blood for the Blood God",
 		"uniques": [
 			"Comment [DO NOT PLAY THIS NATION WITHOUT RELIGION ENABLED]",

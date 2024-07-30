@@ -32,7 +32,7 @@
 		"uniques": [
 			"Only available <if [Tele-Temple] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Instantly Consumes [10] [Blood]",
+			"Instantly consumes [10] [Blood]",
 			"Hidden when religion is disabled",
 			"Can only be built <in [Holy] cities>",
 			"[non-air] units gain the [Blood Frenzy] promotion",
