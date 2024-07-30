@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Blood Cult",
+		"leaderName": "Skarbrand",
+		"adjective": ["Cult"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Blood. Blood. BLOOD!",
+		"startIntroPart2": "The Geometer of Blood has called you. Spill the blood of this world and you shall be saved.",
+		
+		"declaringWar": "BLOOD FOR THE BLOOD GOD!",
+		"attacked": "Have you come to donate?",
+		"defeated": "You have only delayed the inevitable...",
+		"introduction": "Ahh, new blood for the Geometer.",
+		
+		"neutralHello": "Speak, for we are listening.",
+		"hateHello": "You waste your breath",
+		
+		"tradeRequest": "Consider this deal, would you?",
+
+		"outerColor": [230, 20, 20],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "NAR-SIE",
+		"uniqueName": "Blood for the Blood God",
+		"uniques": [
+			"Comment [DO NOT PLAY THIS NATION WITHOUT RELIGION ENABLED]",
+			"May buy [Military] units with [Faith] for [2] times their normal Production cost",
+			"Earn [33]% of the damage done to [non-[Barbarian]] units as [Faith]",
+			"Earn [15]% of the damage done to [Barbarian] units as [Faith] <before founding a Pantheon>",
+			"All newly-trained [Military] units [in all cities] receive the [Sacrificial Dagger] promotion",
+			"[-1 Faith] from all [Faith] buildings",
+			"[Military] units gain the [Sacrificial Dagger] promotion <hidden from users>",
+			"Comment [Gains blood from kills, which is used for unique buildings and blood magic promotions]"
+		]
+		"cities": ["Heart","Artery","Vein","Capillary","Marrow"]
+		"spyNames": [
+			"Trey Torr",
+			"Robert Banks"
+		]
+	},
+]

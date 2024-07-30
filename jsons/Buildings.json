@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Blood Pact",
+		"replaces": "Military Simulation Training",
+		"uniqueTo": "Blood Cult",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Military",
+			"Instantly consumes [5] [Blood]",
+			"Only available <if [Frontier Armory] is constructed in all [non-[Puppeted]] cities>",
+			"[non-air] units gain the [Morale] promotion",
+			"All newly-trained [non-air] units [in all cities] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Military Ballistics",
+		"civilopediaText": [
+			{
+				"text": "A dread ritual that emboldens soldiers across the globe."
+			}
+		]
+	},
+	{
+		"name": "Sanguine Conflux",
+		"replaces": "Religious Broadcast Center",
+		"uniqueTo": "Blood Cult",
+		"cost": 300,
+		"culture": 1,
+		"faith": 4,
+		"greatPersonPoints": { "Great Visionary": 1 },
+		"uniques": [
+			"Only available <if [Tele-Temple] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Instantly Consumes [10] [Blood]",
+			"Hidden when religion is disabled",
+			"Can only be built <in [Holy] cities>",
+			"[non-air] units gain the [Blood Frenzy] promotion",
+			"All newly-trained [non-air] units [in all cities] receive the [Blood Frenzy] promotion",
+			"Comment [Enables new Blood Magic promotions]"
+		],
+		"requiredTech": "Net Culture",
+		"isNationalWonder": true,
+		"civilopediaText": [
+			{
+				"text": "This towering monument empowers those whose blood spills in the name of the Geometer."
+			}
+		]
+	},
+]

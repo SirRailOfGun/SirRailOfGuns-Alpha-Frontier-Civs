@@ -1,0 +1,59 @@
+[
+	{
+		"name": "Sacrificial Dagger",
+		"uniques": [
+			"Instantly provides [1] [Blood] <upon defeating a [Military] unit>"
+		]
+	},
+	{
+		"name": "Blood Frenzy",
+		"uniques": [
+			"No damage penalty for wounded units"
+		]
+	},
+	{
+		"name": "Blood Scent",
+		"prerequisites": ["Sacrificial Dagger"],
+		"uniques": [
+			"Instantly consumes [1] [Blood]",
+			"[+25]% Strength <when adjacent to a [Wounded] unit>"
+		]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Sniper", "Scout", "Rover", "Hover", "Armored", "Siege", "Close Range Water", "Ranged Water", "Submarine", "Helicopter", "Close Range Mech", "Ranged Mech"],
+	},
+	{
+		"name": "First Blood",
+		"prerequisites": ["Sacrificial Dagger"],
+		"uniques": [
+			"Instantly consumes [1] [Blood]",
+			"[+15]% Strength <vs [non-[Wounded]] units>"
+		]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Sniper", "Scout", "Rover", "Hover", "Armored", "Siege", "Close Range Water", "Ranged Water", "Submarine", "Helicopter", "Close Range Mech", "Ranged Mech"],
+	},
+	{
+		"name": "Staunching Aura",
+		"prerequisites": ["Sacrificial Dagger"],
+		"uniques": [
+			"Instantly consumes [1] [Blood]",
+			"[15]% Strength bonus for [Wounded] units within [2] tiles"
+		]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Sniper", "Scout", "Rover", "Hover", "Armored", "Siege", "Close Range Water", "Ranged Water", "Submarine", "Helicopter", "Close Range Mech", "Ranged Mech"],
+	},
+	{
+		"name": "Blood Rage",
+		"prerequisites": ["Blood Frenzy"],
+		"uniques": [
+			"Instantly consumes [2] [Blood]",
+			"[+75]% Strength <when below [15] HP>"
+		]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Sniper", "Scout", "Rover", "Hover", "Armored", "Siege", "Close Range Water", "Ranged Water", "Submarine", "Helicopter", "Close Range Mech", "Ranged Mech"],
+	},
+	{
+		"name": "Blood Boil",
+		"prerequisites": ["Blood Frenzy"],
+		"uniques": [
+			"Instantly consumes [2] [Blood]",
+			"[-25]% Strength for enemy [Wounded] units in adjacent [All] tiles"
+		]
+		"unitTypes": ["Infantry", "Stealth Infantry", "Sniper", "Scout", "Rover", "Hover", "Armored", "Siege", "Close Range Water", "Ranged Water", "Submarine", "Helicopter", "Close Range Mech", "Ranged Mech"],
+	},
+]

@@ -1,0 +1,41 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Blood Pact
+  rotate: false
+  xy: 4, 4
+  size: 546, 600
+  orig: 546, 600
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sanguine Conflux
+  rotate: false
+  xy: 584, 1252
+  size: 526, 526
+  orig: 526, 526
+  offset: 0, 0
+  index: -1
+NationIcons/Blood Cult
+  rotate: false
+  xy: 4, 612
+  size: 570, 570
+  orig: 570, 570
+  offset: 0, 0
+  index: -1
+NationIcons/Blood Cult silly
+  rotate: false
+  xy: 1118, 1382
+  size: 410, 396
+  orig: 410, 396
+  offset: 0, 0
+  index: -1
+ResourceIcons/Blood
+  rotate: false
+  xy: 4, 1190
+  size: 572, 588
+  orig: 572, 588
+  offset: 0, 0
+  index: -1

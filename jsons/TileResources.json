@@ -1,0 +1,13 @@
+[
+    {
+		"name": "Blood",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Not shown on world screen <for [non-[Blood Cult]]>"
+		]
+	}
+]
