@@ -44,7 +44,7 @@
 			"Limited to [10] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay"],
+		"promotions": ["Mercenary Pay","Morale"],
 		"attackSound": "SniperShot",
 	},
 	{
@@ -98,9 +98,10 @@
 			"Unbuildable <for [Human player]>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
 			"Can move immediately once bought",
-			"Limited to [10] per Civilization",
+			"Limited to [6] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Mercenary Pay","Morale"],
 		"attackSound": "RapidLaser",
 	},
 	{
@@ -137,6 +138,7 @@
 			"Unavailable <before discovering [Quantum Theory]>"
 			"Can only attack [All] units",
 			"Destroys tile improvements when attacking <with [25]% chance>",
+			"Cannot be intercepted",
 			"[+200]% Strength <vs [non-air] units>",
 			"[-100]% Strength <vs [Satellite] units>",
 			"Limited to [3] per Civilization",
@@ -144,7 +146,7 @@
 			"Consumes [1] [Antimatter]",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "nuke",
+		"attackSound": "ChargeUpBeam",
 		"civilopediaText": [
 			{
 				"text": "This weapon of light can kill anything even gods!"
@@ -164,5 +166,30 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun",
+	},
+	{
+		"name": "Grim Reapers (Fencer)",
+		"replaces":"Rock Hoppers (Drop Trooper)",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defence Force",
+		"movement": 8,
+		"strength": 60,
+		"cost": 600,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable <for [Human player]>",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Morale"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "They have a tendency to flatten all opposition within moments of their landing. They also have a reputation for collateral damage."
+			}
+		]
 	},
 ]
