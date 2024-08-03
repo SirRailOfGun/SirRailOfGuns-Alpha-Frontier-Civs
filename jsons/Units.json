@@ -54,14 +54,16 @@
 	},
 	{
 		"name": "Wing Diver",
-		"replaces": "Combat Heli",
-		"unitType": "Helicopter",
+		"unitType": "Infantry",
 		"uniqueTo": "Earth Defense Force",
 		"movement": 3,
-		"strength": 11,
-		"cost": 150,
+		"strength": 12,
+		"cost": 85,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
+			"Air", 
+			"Can pass through impassable tiles",
+			"May travel on Water tiles without embarking",
 			"Can move after attacking",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
@@ -70,8 +72,6 @@
 			"[+100]% Strength <vs [Infantry] units>",
 			"[-25]% Strength <vs cities>",
 			"Withdraws before melee combat <with [50]% chance>",
-			"Can upgrade to [Cyberheli]",
-			"Can upgrade to [Heavy Heli Gunship] <after discovering [Nanotechnology]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
@@ -83,14 +83,16 @@
 	},
 	{
 		"name": "Spriggan Team (Wing Diver)",
-		"unitType": "Helicopter",
+		"unitType": "Infantry",
 		"uniqueTo": "Earth Defense Force",
 		"movement": 4,
-		"strength": 13,
-		"rangedStrength": 30,
-		"cost": 150,
+		"strength": 15,
+		"cost": 225,
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
+			"Air", 
+			"Can pass through impassable tiles",
+			"May travel on Water tiles without embarking",
 			"Can move after attacking",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
@@ -201,11 +203,9 @@
 		"range": 6,
 		"interceptRange": 0,
 		"cost": 1500,
-		"requiredTech": "Orbital Deterrents", // and quantum theory
+		"requiredTech": "Orbital Deterrents",
 		"uniques": [
-			"Unavailable <before discovering [Quantum Theory]>"
 			"Can only attack [All] units",
-			"Destroys tile improvements when attacking <with [25]% chance>",
 			"Cannot be intercepted",
 			"[+200]% Strength <vs [non-air] units>",
 			"[-100]% Strength <vs [Satellite] units>",

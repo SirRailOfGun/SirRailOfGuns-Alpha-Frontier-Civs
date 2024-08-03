@@ -41,7 +41,7 @@
 		"name": "Earth Defense Force",
 		"leaderName": "Chief Commander",
 		"adjective": ["EDF"],
-		"preferredVictoryType": "Science",
+		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "Earth has been destroyed, despite our valiant efforts. However, we have not been defeated! In the fighting, we captured an enemy ship, and sent it to the stars to find a new home. Inside it, we put our brightest minds and greatest fighters, so that our new home will be safe. That ship has now landed, and you, our greatest hero of Earth, shall become the new Chief Commander of the EDF. Good luck, and Godspeed! The EDF shall never die! We will fight on and see tomorrow!",
 		"startIntroPart2": "The Earth Defense Force Alpha begins now...",
