@@ -73,37 +73,65 @@ size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Units/BlueJacket Snipers (Ranger)
+TileSets/FantasyHex/Units/Air Raider
   rotate: false
   xy: 1378, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Colony Rifleman
+TileSets/FantasyHex/Units/BlueJacket Snipers (Ranger)
   rotate: false
   xy: 1672, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Ranger
+TileSets/FantasyHex/Units/Colony Rifleman
   rotate: false
   xy: 1378, 138
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spriggan Team (Wing Diver)
+TileSets/FantasyHex/Units/Fencer
   rotate: false
   xy: 1418, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Wing Diver
+TileSets/FantasyHex/Units/Grim Reapers (Fencer)
   rotate: false
   xy: 1672, 444
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ranger
+  rotate: false
+  xy: 1712, 480
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spriggan Team (Wing Diver)
+  rotate: false
+  xy: 1378, 102
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spritefall
+  rotate: false
+  xy: 1418, 138
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wing Diver
+  rotate: false
+  xy: 1458, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
