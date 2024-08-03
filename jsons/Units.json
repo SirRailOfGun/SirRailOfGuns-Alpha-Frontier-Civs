@@ -3,7 +3,7 @@
 		"name": "Ranger"
 		"replaces": "Frontier Militia",
 		"unitType": "Infantry",
-		"uniqueTo": "Earth Defence Force",
+		"uniqueTo": "Earth Defense Force",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -18,17 +18,17 @@
 		],
 		"promotions": ["Bug Hunter"]
 		"attackSound": "shot",
-		/*
 		"civilopediaText": [
-			{ "text": "Basically just a person in an atmo-suit and a gun." }
+			{ 
+				"text": "The best soldiers of the EDF, the rangers are experienced in fighting monsters and aliens." 
+			}
 		]
-		*/
 	},
 	{
 		"name": "BlueJacket Snipers (Ranger)",
 		"replaces": "Boondock Posse (Frontier Militia)"
 		"unitType": "Sniper",
-		"uniqueTo": "Earth Defence Force",
+		"uniqueTo": "Earth Defense Force",
 		"movement": 2,
 		"range": 2,
 		"strength": 11,
@@ -44,14 +44,19 @@
 			"Limited to [10] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay","Morale"],
+		"promotions": ["Mercenary Pay","Bug Hunter","Bug Exterminator"],
 		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{ 
+				"text": "When a ranger becomes experienced, he is trained to use a sniper. These weapons are deadly on the battlefield." 
+			}
+		]
 	},
 	{
 		"name": "Wing Diver",
 		"replaces": "Combat Heli",
 		"unitType": "Helicopter",
-		"uniqueTo": "Earth Defence Force",
+		"uniqueTo": "Earth Defense Force",
 		"movement": 5,
 		"range": 2,
 		"strength": 25,
@@ -73,12 +78,17 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{ 
+				"text": "These soldiers are equipped with plasma weapons and can fly." 
+			}
+		]
 	},
 	{
 		"name": "Spriggan Team (Wing Diver)",
 		"unitType": "Helicopter",
-		"uniqueTo": "Earth Defence Force",
-		"movement": 7,
+		"uniqueTo": "Earth Defense Force",
+		"movement": 5,
 		"range": 3,
 		"strength": 25,
 		"rangedStrength": 30,
@@ -94,6 +104,7 @@
 			"[+100]% Strength <vs [Infantry] units>",
 			"[-25]% Strength <vs cities>",
 			"Withdraws before melee combat <with [50]% chance>",
+			"[10]% Strength bonus for [Infantry] units within [1] tiles",
 			"Mercenary",
 			"Unbuildable <for [Human player]>",
 			"Can only be built <in cities with a [Mercenary Offices]>",
@@ -103,30 +114,93 @@
 		],
 		"promotions": ["Mercenary Pay","Morale"],
 		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{ 
+				"text": "These elite wing divers inspire the troops around them." 
+			}
+		]
 	},
 	{
 		"name": "Air Raider",
 		"unitType": "Siege",
-		"uniqueTo": "Earth Defence Force",
+		"uniqueTo": "Earth Defense Force",
 		"movement": 2,
 		"range": 3,
 		"strength": 30,
 		"rangedStrength": 40,
 		"cost": 175,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Aeronautics",
 		"uniques": [
 			"[+100]% Strength <vs cities> <when attacking>",
+			"[-75]% Strength <when defending>",
+			"[-25]% Strength <when adjacent to a [Enemy] unit>",
 			"Must set up to ranged attack",
 			"[100]% Strength bonus for [Air] units within [3] tiles",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "MissileLaunch",
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"text": "These soldiers do not use guns but radios. They communicate with bombers and bases to designate targets and hit enemies more precisely."
+			}
+		]
+	},
+	{
+		"name": "Fencer",
+		"replaces": "Drop Trooper",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 3,
+		"strength": 44,
+		"cost": 300,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"[+100]% Strength <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "Advanced soldiers with powered armor that improves their strength and speed. They also carry shields that can block attacks."
+			}
+		]
+	},
+	{
+		"name": "Grim Reapers (Fencer)",
+		"replaces":"Rock Hoppers (Drop Trooper)",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 4,
+		"strength": 43,
+		"cost": 600,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable <for [Human player]>",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"[+100]% Strength <when defending>",
+			"[+100]% Strength <vs [Close Range Mech]>",
+			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Survivalism I","Survivalism II"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "These legendary soldiers destroyed 3 Assault Mechs by themselves."
+			}
+		]
 	},
 	{
 		"name": "Spritefall",
 		"replaces": "Nuclear Satellite",
 		"unitType": "Satellite",
-		"uniqueTo": "Earth Defence Force",
+		"uniqueTo": "Earth Defense Force",
 		"movement": 1,
 		"strength": 100,
 		"rangedStrength": 100,
@@ -150,45 +224,6 @@
 		"civilopediaText": [
 			{
 				"text": "This weapon of light can kill anything even gods!"
-			}
-		]
-	},
-	{
-		"name": "Fencer",
-		"replaces": "Drop Trooper",
-		"unitType": "Infantry",
-		"uniqueTo": "Earth Defence Force",
-		"movement": 6,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Cybernetics",
-		"uniques": [
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "machinegun",
-	},
-	{
-		"name": "Grim Reapers (Fencer)",
-		"replaces":"Rock Hoppers (Drop Trooper)",
-		"unitType": "Infantry",
-		"uniqueTo": "Earth Defence Force",
-		"movement": 8,
-		"strength": 60,
-		"cost": 600,
-		"requiredTech": "Cybernetics",
-		"uniques": [
-			"Mercenary",
-			"Unbuildable <for [Human player]>",
-			"Can only be built <in cities with a [Mercenary Offices]>",
-			"Can move immediately once bought",
-			"Limited to [3] per Civilization",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": ["Mercenary Pay","Morale"],
-		"attackSound": "machinegun",
-		"civilopediaText": [
-			{
-				"text": "They have a tendency to flatten all opposition within moments of their landing. They also have a reputation for collateral damage."
 			}
 		]
 	},

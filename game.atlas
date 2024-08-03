@@ -6,36 +6,133 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Blood Pact
   rotate: false
-  xy: 4, 4
+  xy: 4, 576
   size: 546, 600
   orig: 546, 600
   offset: 0, 0
   index: -1
 BuildingIcons/Sanguine Conflux
   rotate: false
-  xy: 584, 1252
+  xy: 1106, 94
   size: 526, 526
   orig: 526, 526
   offset: 0, 0
   index: -1
 NationIcons/Blood Cult
   rotate: false
-  xy: 4, 612
+  xy: 1192, 628
   size: 570, 570
   orig: 570, 570
   offset: 0, 0
   index: -1
-NationIcons/Blood Cult silly
+NationIcons/Earth Defense Force
   rotate: false
-  xy: 1118, 1382
-  size: 410, 396
-  orig: 410, 396
+  xy: 558, 125
+  size: 540, 540
+  orig: 540, 540
   offset: 0, 0
   index: -1
 ResourceIcons/Blood
   rotate: false
-  xy: 4, 1190
+  xy: 612, 673
   size: 572, 588
   orig: 572, 588
+  offset: 0, 0
+  index: -1
+UnitIcons/Fencer
+  rotate: false
+  xy: 1202, 1206
+  size: 578, 578
+  orig: 578, 578
+  offset: 0, 0
+  index: -1
+UnitIcons/Ranger
+  rotate: false
+  xy: 4, 1184
+  size: 600, 600
+  orig: 600, 600
+  offset: 0, 0
+  index: -1
+UnitIcons/Spriggan Team (Wing Diver)
+  rotate: false
+  xy: 612, 1269
+  size: 582, 515
+  orig: 582, 515
+  offset: 0, 0
+  index: -1
+UnitIcons/Wing Diver
+  rotate: false
+  xy: 4, 4
+  size: 525, 564
+  orig: 525, 564
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/BlueJacket Snipers (Ranger)
+  rotate: false
+  xy: 1378, 174
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Colony Rifleman
+  rotate: false
+  xy: 1672, 480
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ranger
+  rotate: false
+  xy: 1378, 138
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spriggan Team (Wing Diver)
+  rotate: false
+  xy: 1418, 174
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wing Diver
+  rotate: false
+  xy: 1672, 444
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Air Raider
+  rotate: false
+  xy: 1048, 22
+  size: 322, 486
+  orig: 322, 486
+  offset: 0, 0
+  index: -1
+UnitIcons/BlueJacket Snipers (Ranger)
+  rotate: false
+  xy: 536, 4
+  size: 504, 504
+  orig: 504, 504
+  offset: 0, 0
+  index: -1
+UnitIcons/Grim Reapers (Fencer)
+  rotate: false
+  xy: 4, 16
+  size: 524, 492
+  orig: 524, 492
+  offset: 0, 0
+  index: -1
+UnitIcons/Spritefall
+  rotate: false
+  xy: 1378, 210
+  size: 286, 298
+  orig: 286, 298
   offset: 0, 0
   index: -1
