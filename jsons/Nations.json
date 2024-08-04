@@ -20,7 +20,6 @@
 
 		"outerColor": [230, 20, 20],
 		"innerColor": [255, 255, 255],
-		//"favoredReligion": "NAR-SIE",
 		"uniqueName": "Blood for the Blood God",
 		"uniques": [
 			"Comment [DO NOT PLAY THIS NATION WITHOUT RELIGION ENABLED]",
@@ -37,5 +36,30 @@
 			"Trey Torr",
 			"Robert Banks"
 		]
+	},
+	{
+		"name": "Earth Defense Force",
+		"leaderName": "Chief Commander",
+		"adjective": ["EDF"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Earth has been destroyed, despite our valiant efforts. However, we have not been defeated! In the fighting, we captured an enemy ship, and sent it to the stars to find a new home. Inside it, we put our brightest minds and greatest fighters, so that our new home will be safe. That ship has now landed, and you, our greatest hero of Earth, shall become the new Chief Commander of the EDF. Good luck, and Godspeed! The EDF shall never die! We will fight on and see tomorrow!",
+		"startIntroPart2": "The Earth Defense Force Alpha begins now...",
+		
+		"declaringWar": "As you are an imminent threat to humanity, we shall destroy you!",
+		"attacked": "You would threaten the human race!",
+		"defeated": "Though you may have destroyed our bases, we will fight on! Humanity will never die!",
+		"introduction": "Are you really more humans? Did others survive the destruction of earth?",
+		
+		"neutralHello": "Greetings from the EDF!",
+		"hateHello": "You may kill our soldiers, but you will never kill our spirits!",
+		
+		"tradeRequest": "This deal will ensure the survival of humans.",
+
+		"outerColor": [31, 42, 61],
+		"innerColor": [0, 72, 189],
+		"uniqueName": "The EDF Deploys!",
+		"uniqueText": "Your strength comes from the valiant soldiers under your command! Fight well, and ensure the survival of all humans!",
+		"cities": ["Landing Zone","First City","Second City","Third City","Fourth City","Fifth City","Sixth City","Seventh City","Eighth City","Ninth City","Tenth City"]
 	},
 ]

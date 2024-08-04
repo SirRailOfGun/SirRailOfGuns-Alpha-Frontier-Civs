@@ -1,0 +1,224 @@
+[
+	{
+		"name": "Ranger"
+		"replaces": "Frontier Militia",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Next-Gen Armaments", //Exoskeletons?
+		"uniques": [
+			"Ignores Zone of Control",
+			"Can upgrade to [Colony Rifleman]",
+			"Can upgrade to [Colony Marksman]",
+			"May upgrade to [Colony Rifleman] through ruins-like effects <with [50]% chance>",
+			"May upgrade to [Colony Marksman] through ruins-like effects <with [50]% chance>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Bug Hunter"]
+		"attackSound": "shot",
+		"civilopediaText": [
+			{ 
+				"text": "The best soldiers of the EDF, the rangers are experienced in fighting monsters and aliens." 
+			}
+		]
+	},
+	{
+		"name": "BlueJacket Snipers (Ranger)",
+		"replaces": "Boondock Posse (Frontier Militia)"
+		"unitType": "Sniper",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 2,
+		"range": 2,
+		"strength": 11,
+		"rangedStrength": 11,
+		"cost": 75,
+		"hurryCostModifier": -10,
+		"obsoleteTech": "Next-Gen Armaments",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable <for [Human player]>",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [10] per Civilization",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Bug Hunter","Bug Exterminator"],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{ 
+				"text": "When a ranger becomes experienced, he is trained to use a sniper. These weapons are deadly on the battlefield." 
+			}
+		]
+	},
+	{
+		"name": "Wing Diver",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 3,
+		"strength": 12,
+		"cost": 85,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+			"Air", 
+			"Can pass through impassable tiles",
+			"May travel on Water tiles without embarking",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+1] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[-25]% Strength <vs cities>",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{ 
+				"text": "These soldiers are equipped with plasma weapons and can fly." 
+			}
+		]
+	},
+	{
+		"name": "Spriggan Team (Wing Diver)",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 4,
+		"strength": 15,
+		"cost": 225,
+		"requiredTech": "Next-Gen Armaments",
+		"uniques": [
+			"Air", 
+			"Can pass through impassable tiles",
+			"May travel on Water tiles without embarking",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+2] Sight",
+			"[+100]% Strength <vs [Infantry] units>",
+			"[-25]% Strength <vs cities>",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Mercenary",
+			"Unbuildable <for [Human player]>",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Limited to [6] per Civilization",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Morale"],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{ 
+				"text": "These elite wing divers inspire the troops around them." 
+			}
+		]
+	},
+	{
+		"name": "Air Raider",
+		"unitType": "Siege",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 2,
+		"range": 3,
+		"strength": 30,
+		"rangedStrength": 40,
+		"cost": 175,
+		"requiredTech": "Aeronautics",
+		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[-75]% Strength <when defending>",
+			"[-25]% Strength <when adjacent to a [Enemy] unit>",
+			"Must set up to ranged attack",
+			"[100]% Strength bonus for [Air] units within [3] tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"text": "These soldiers do not use guns but radios. They communicate with bombers and bases to designate targets and hit enemies more precisely."
+			}
+		]
+	},
+	{
+		"name": "Fencer",
+		"replaces": "Drop Trooper",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 3,
+		"strength": 44,
+		"cost": 300,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"[+100]% Strength <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "Advanced soldiers with powered armor that improves their strength and speed. They also carry shields that can block attacks."
+			}
+		]
+	},
+	{
+		"name": "Grim Reapers (Fencer)",
+		"replaces":"Rock Hoppers (Drop Trooper)",
+		"unitType": "Infantry",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 4,
+		"strength": 43,
+		"cost": 600,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable <for [Human player]>",
+			"Can only be built <in cities with a [Mercenary Offices]>",
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"[+100]% Strength <when defending>",
+			"[+100]% Strength <vs [Close Range Mech]>",
+			"Can move immediately once bought",
+			"Limited to [3] per Civilization",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Survivalism I","Survivalism II"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "These legendary soldiers destroyed 3 Assault Mechs by themselves."
+			}
+		]
+	},
+	{
+		"name": "Spritefall",
+		"replaces": "Nuclear Satellite",
+		"unitType": "Satellite",
+		"uniqueTo": "Earth Defense Force",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 6,
+		"interceptRange": 0,
+		"cost": 1500,
+		"requiredTech": "Orbital Deterrents",
+		"uniques": [
+			"Can only attack [All] units",
+			"Cannot be intercepted",
+			"[+200]% Strength <vs [non-air] units>",
+			"[-100]% Strength <vs [Satellite] units>",
+			"Limited to [3] per Civilization",
+			"Can only be built <in cities with a [Orbital Launch Facility]>",
+			"Consumes [1] [Antimatter]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "ChargeUpBeam",
+		"civilopediaText": [
+			{
+				"text": "This weapon of light can kill anything even gods!"
+			}
+		]
+	},
+]
