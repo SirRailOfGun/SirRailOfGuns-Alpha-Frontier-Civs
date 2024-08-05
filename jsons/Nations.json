@@ -64,22 +64,22 @@
 	},
 	{
 		"name": "Talonian Privateers",
-		"leaderName": "Radley",
+		"leaderName": "Cpt. Radley",
 		"adjective": ["Pirates"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Lorem Ipsum",
+		"startIntroPart1": "LAND HO!",
 		"startIntroPart2": "",
 		
 		"declaringWar": "Put the credits in the bag and no one has to get hurt!",
-		"attacked": "You'll never ",
-		"defeated": "",
+		"attacked": "No! This is ours! Back off, before I hit the Big Red Button!",
+		"defeated": "Yaarrrr......",
 		"introduction": "Unnkown actors identified: State intentions or y'all walk the plank!",
 		
-		"neutralHello": "",
-		"hateHello": "",
+		"neutralHello": "Ahoy!",
+		"hateHello": "What do ye want ye grounder?",
 		
-		"tradeRequest": "",
+		"tradeRequest": "Look, don't ask questions and we were never here.",
 
 		"outerColor": [255, 0, 255],
 		"innerColor": [0,0,0],
