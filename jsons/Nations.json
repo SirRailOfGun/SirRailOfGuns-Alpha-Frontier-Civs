@@ -62,4 +62,65 @@
 		"uniqueText": "Your strength comes from the valiant soldiers under your command! Fight well, and ensure the survival of all humans!",
 		"cities": ["Landing Zone","First City","Second City","Third City","Fourth City","Fifth City","Sixth City","Seventh City","Eighth City","Ninth City","Tenth City"]
 	},
+	{
+		"name": "Talonian Privateers",
+		"leaderName": "Cpt. Radley",
+		"adjective": ["Pirates"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "LAND HO!",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Put the credits in the bag and no one has to get hurt!",
+		"attacked": "No! This is ours! Back off, before I hit the Big Red Button!",
+		"defeated": "Yaarrrr......",
+		"introduction": "Unnkown actors identified: State intentions or y'all walk the plank!",
+		
+		"neutralHello": "Ahoy!",
+		"hateHello": "What do ye want ye grounder?",
+		
+		"tradeRequest": "Look, don't ask questions and we were never here.",
+
+		"outerColor": [237, 184, 9],
+		"innerColor": [7, 93, 102],
+		"uniqueName": "Vile Pragmatism",
+		"uniques": [
+			"Nullifies [Faith] [in all cities]",
+			"[0]% Natural religion spread [in all cities]",
+			"Comment [Cannot build Religion buildings]"
+			"No movement cost to pillage",
+			"[+1]% [Production] from every [Military]",
+			"[+1]% [Science] from every [Production]"
+		]
+		"cities": ["High Tortuga","Port Royale","Clew Bay","New Providence","Barataria"]
+	},
 ]
+/*
+	{
+		"name": "",
+		"leaderName": "",
+		"adjective": [""],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Lorem Ipsum",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		
+		"tradeRequest": "",
+
+		"outerColor": [255, 0, 255],
+		"innerColor": [0,0,0],
+		"uniqueName": "",
+		"uniques": [
+			"Comment [Placeholder nation, add some uniques here]",
+		],
+		"cities": []
+	},
+*/

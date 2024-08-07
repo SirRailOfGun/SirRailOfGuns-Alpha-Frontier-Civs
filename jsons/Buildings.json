@@ -47,4 +47,71 @@
 			}
 		]
 	},
+	
+	//Space Pirates
+	{
+		"name": "Materials Hub",
+		"uniqueTo": "Talonian Privateers",
+		"cost": 125,
+		"uniques": [
+			//"[+1 Gold] from [Strategic resource] tiles [in this city]",
+			"[+1 Gold] from [{improved} {resource}] tiles [in this city]"
+		],
+		"requiredTech": "Efficient Extraction Methods",
+		"civilopediaText": [
+			{
+				"text": "Resources are sent here after processing in order to determine their worth. All excess is sold."
+			}
+		]
+	},
+	{
+		"name": "Faith Blocker",
+		"uniqueTo": "Talonian Privateers",
+		"replaces": "Memorial",
+		"cost": 1,
+		"uniques": [
+			"Unavailable",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Faith Blocker II",
+		"uniqueTo": "Talonian Privateers",
+		"replaces": "Congregation Space",
+		"cost": 1,
+		"uniques": [
+			"Unavailable",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Faith Blocker III",
+		"uniqueTo": "Talonian Privateers",
+		"replaces": "Tele-Temple",
+		"cost": 1,
+		"uniques": [
+			"Unavailable",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Faith Blocker IV",
+		"uniqueTo": "Talonian Privateers",
+		"replaces": "Religious Broadcast Center",
+		"cost": 1,
+		"uniques": [
+			"Unavailable",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Faith Blocker V",
+		"uniqueTo": "Talonian Privateers",
+		"replaces": "Shambhala Virtual Space",
+		"cost": 1,
+		"uniques": [
+			"Unavailable",
+			"Will not be displayed in Civilopedia"
+		],
+	},
 ]

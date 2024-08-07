@@ -221,4 +221,28 @@
 			}
 		]
 	},
+	
+	//Space Pirates
+	{
+		"name": "Ultimate Warrior",
+		"replaces": "Battle Psion",
+		"unitType": "Helicopter",
+		"uniqueTo": "Talonian Privateers",
+		"movement": 2,
+		"strength": 65,
+		"cost": 350,
+		"requiredTech": "Psionics",
+		"uniques": [
+			"Heals [100] damage if it kills a unit",
+			"[-75]% Strength <when fighting in [Snow] tiles>"
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"text": "The culmination of pirate meddling, these monsters are utterly loyal to their masters. Their physiology renders them more vulnerable to extreme cold, a flaw the pirates are working to remove."
+			}
+		]
+	},
 ]
