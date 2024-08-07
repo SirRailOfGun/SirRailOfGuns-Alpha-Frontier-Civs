@@ -54,7 +54,8 @@
 		"uniqueTo": "Talonian Privateers",
 		"cost": 125,
 		"uniques": [
-			"[+1 Gold] from [Strategic resource] tiles [in this city]",
+			//"[+1 Gold] from [Strategic resource] tiles [in this city]",
+			"[+1 Gold] from [{improved} {resource}] tiles [in this city]"
 		],
 		"requiredTech": "Efficient Extraction Methods",
 		"civilopediaText": [

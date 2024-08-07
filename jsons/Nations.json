@@ -81,15 +81,15 @@
 		
 		"tradeRequest": "Look, don't ask questions and we were never here.",
 
-		"outerColor": [255, 0, 255],
-		"innerColor": [0,0,0],
+		"outerColor": [237, 184, 9],
+		"innerColor": [7, 93, 102],
 		"uniqueName": "Vile Pragmatism",
 		"uniques": [
 			"Nullifies [Faith] [in all cities]",
 			"[0]% Natural religion spread [in all cities]",
 			"Comment [Cannot build Religion buildings]"
 			"No movement cost to pillage",
-			"[+1]% [Production] from every [Science]",
+			"[+1]% [Production] from every [Military]",
 			"[+1]% [Science] from every [Production]"
 		]
 		"cities": ["High Tortuga","Port Royale","Clew Bay","New Providence","Barataria"]
